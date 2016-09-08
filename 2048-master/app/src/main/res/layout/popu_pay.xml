@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+       <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        /> 
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:ems="14"
+        android:text="今日次数用尽，请点击购买"
+        />
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        />
+    <View android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"/>
+	<Button 
+	    android:id="@+id/btn_pay"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@null"
+	    android:paddingBottom="10dp"
+	    android:textSize="18sp"
+	    android:text="购买"/>
+	    <View android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"/>
+	<Button 
+	    android:id="@+id/btn_close"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@null"
+	    android:paddingBottom="10dp"
+	    android:textSize="18sp"
+	    android:text="关闭"/>
+	
+</LinearLayout>

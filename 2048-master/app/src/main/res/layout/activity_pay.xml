@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22999999"
+    android:orientation="vertical" >
+	<FrameLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#FFFFFF"
+	    android:orientation="horizontal">
+	    <ImageView 
+	        android:id="@+id/tv_back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:padding="15dp"
+	        
+	        android:src="@drawable/ic_back"/>
+	    <TextView android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="18sp"
+	        android:layout_gravity="center"
+	        android:text="支付订单"/>
+	</FrameLayout>
+	<TextView 
+	    android:id="@+id/tv_time"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#faf0e0"
+	    android:padding="10dp"
+	    android:textSize="15sp"
+	    android:text="支付剩余时间"/>
+	<TextView android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textSize="15sp"
+	    android:text="代金券"/>
+	<LinearLayout android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffff"
+	    android:orientation="vertical">
+	    <RelativeLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        >
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="10dp"
+	            android:textSize="15sp"
+	            android:textColor="#777777"
+	            android:text="数量"/>
+	        <TextView android:layout_width="wrap_content"
+   	            android:paddingRight="10dp"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:textSize="15sp"
+	            android:text="1"
+	            android:layout_alignParentRight="true"/>
+	    </RelativeLayout>
+	    <RelativeLayout android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        >
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:padding="10dp"
+	            android:textSize="15sp"
+	            android:textColor="#777777"
+	            android:text="总价"/>
+	        <LinearLayout android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingRight="10dp"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:orientation="vertical"
+	            >
+	        <TextView 
+	            android:id="@+id/tv_pay"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:layout_gravity="right|center_vertical"
+	            android:textSize="15sp"
+	            android:text="￥1" />
+<!-- 	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerInParent="true"
+	            android:textSize="12sp"
+	            android:text="已优惠10.0元"
+	            android:textColor="#777777"
+	            android:layout_alignParentRight="true"
+	            android:layout_below="@id/tv_pay" /> -->
+	        </LinearLayout>
+	    </RelativeLayout>
+	</LinearLayout>
+	<TextView android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:textSize="15sp"
+	    android:text="请选择支付方式"/>
+	<RadioGroup 
+	    android:id="@+id/rg"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    
+	    android:orientation="vertical">
+	    <RadioButton 
+	        android:id="@+id/rb1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#ffffff"
+	        android:button="@null"
+	        android:padding="10dp"
+	        android:checked="true"
+	        android:text="  QQ支付"
+	        
+	        android:drawableLeft="@drawable/qq_logo"
+	        android:drawableRight="@drawable/rb_selector"
+	        />
+	    <RadioButton 
+	        android:id="@+id/rb2"
+	        android:layout_marginTop="1dp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:background="#ffffff"
+	        	        android:padding="10dp"
+	        android:text="  微信支付"
+	        android:drawableLeft="@drawable/wechat_logo"
+	        android:button="@null"
+	        android:drawableRight="@drawable/rb_selector"
+	        />
+	</RadioGroup>
+	<Button 
+	    android:id="@+id/btn_pay"
+	    android:layout_width="match_parent"
+	    android:layout_margin="20dp"
+	    android:background="#ff8888"
+	    android:textSize="18sp"
+	    android:textColor="#FFFFFF"
+	    android:padding="10dp"
+	    android:text="1元  确认支付"
+	    android:layout_height="wrap_content"
+	    />
+</LinearLayout>

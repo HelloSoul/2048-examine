@@ -1,0 +1,166 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: eVt274BXB44oNBBQjkRKpiMJbKk=
+
+Name: res/drawable-mdpi-v4/logo_2048.png
+SHA1-Digest: iKSGNGRVmeJmsA20jA1K4D56v5E=
+
+Name: res/layout/activity_splash.xml
+SHA1-Digest: shB1hwOc5U+J28/aQpezez2I8ck=
+
+Name: lib/armeabi/libplugin_phone.so
+SHA1-Digest: ScrPu3D8qW6m2olJ5TuJtha69HE=
+
+Name: assets/armeabi/liblocSDK3.so
+SHA1-Digest: 63pjHXEIQrEaevBGPDAxP/uHMes=
+
+Name: res/menu/pay.xml
+SHA1-Digest: /6TCxHDmKuOqq+h+oeVRYiNRzLk=
+
+Name: res/drawable-mdpi-v4/ic_action_undo.png
+SHA1-Digest: 6VmpXbgegoRPylSghPCQpGvrQr8=
+
+Name: res/drawable-hdpi-v4/ic_back.png
+SHA1-Digest: bpynU3ivr5grX8oJDTpGoukTJw4=
+
+Name: res/drawable-mdpi-v4/fade_rectangle.xml
+SHA1-Digest: wMvF8/KQ4BnJTAGBNa2RixloajM=
+
+Name: res/layout/popu_pay.xml
+SHA1-Digest: pgLT/vT8fC0kmI2FPgsgCUbEvPE=
+
+Name: res/drawable-hdpi-v4/qq_logo.png
+SHA1-Digest: Tr36hpucptR7NGVXzUV4mRqOwu4=
+
+Name: res/drawable-hdpi-v4/logo_2048.png
+SHA1-Digest: jmf3i9gMcahMvstmtgeGnY1QB2c=
+
+Name: res/drawable-hdpi-v4/ads.png
+SHA1-Digest: B3B0XkQwVv7QBiWXWTyS6VyFXIY=
+
+Name: lib/armeabi/libentryex.so
+SHA1-Digest: zxmZ25ooVSPO5YIoddd7VAz1ukQ=
+
+Name: res/drawable-mdpi-v4/background_rectangle.xml
+SHA1-Digest: yYxiZPf16rsXp6AzkogJEexY5/4=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_1024.xml
+SHA1-Digest: OXpxyM3Q8r6qW4jYFHqbT5hmgQg=
+
+Name: lib/mips64/libplugin_phone.so
+SHA1-Digest: BHynUJ0TFi0OjyO9SAtUXkNWvcw=
+
+Name: res/drawable-mdpi-v4/ic_action_refresh.png
+SHA1-Digest: 9Jp9RWBkCkcRlaHdu2CtXkOHePw=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_16.xml
+SHA1-Digest: z7N2qLsIcb4k8pkEi4ekAFwBCgc=
+
+Name: lib/armeabi-v7a/libplugin_phone.so
+SHA1-Digest: k4ijNx5SnSEkolZYwYZd19xgIIc=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_64.xml
+SHA1-Digest: uRSsrIZx5JZN+7CSANT3+GFLstQ=
+
+Name: res/drawable-xxhdpi-v4/logo_2048.png
+SHA1-Digest: I1GBlZ68mzsEGDku56u3X2lug3Q=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_2.xml
+SHA1-Digest: DRU+kcFNKt1XWhsixzfp6xZBTWg=
+
+Name: res/drawable-mdpi-v4/cell_rectangle.xml
+SHA1-Digest: Z/JPBygj4Ua2pC1+2xXO4rxb4C8=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_8.xml
+SHA1-Digest: jfE8wDVi/3fqsPMPKldSGpgkPjY=
+
+Name: lib/x86_64/libplugin_phone.so
+SHA1-Digest: SjgMP5T6TO9DTUGpTFHsmRPfj64=
+
+Name: res/drawable-hdpi-v4/unpass.png
+SHA1-Digest: 7xtqw8dKWJRdagit1XrDH3bPnIw=
+
+Name: res/drawable-hdpi-v4/wechat_logo.png
+SHA1-Digest: ZkAH7eLydL8lAdEi8pfPgCPHK5E=
+
+Name: res/drawable-xxhdpi-v4/ic_action_undo.png
+SHA1-Digest: klYBNtU+HbnJVoIe1s7+TKg5M6U=
+
+Name: res/drawable-xhdpi-v4/logo_2048.png
+SHA1-Digest: i3k+koz9EhnY2g8ote6UN01lIGs=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_2048.xml
+SHA1-Digest: yyfrXbV3rb4Bk+siyQEnGOcwi3M=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_256.xml
+SHA1-Digest: F7iByj+3oVWD3+InUBledstSAlg=
+
+Name: assets/ClearSans-Bold.ttf
+SHA1-Digest: dSBuugwibZDLDnSUjqdmhUiCncI=
+
+Name: resources.arsc
+SHA1-Digest: N8LnMfDoDiRb/e0PrvDlfl1U9sY=
+
+Name: res/drawable-xhdpi-v4/ic_action_undo.png
+SHA1-Digest: r/3NIpIDUUnLrKv0Q+KNZSHiEkc=
+
+Name: lib/arm64-v8a/libplugin_phone.so
+SHA1-Digest: rjhy0E+kLlpcMBB5VB5lLHpAB5g=
+
+Name: AndroidManifest.xml
+SHA1-Digest: Dbps+R7QxKE8YdfVbPEiV4RW+To=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_128.xml
+SHA1-Digest: V+/i99lTbuLLLtbUgMP2Ra5bn00=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_32.xml
+SHA1-Digest: pcX6tsZXgKdMCmhteJN7GdptPt0=
+
+Name: res/drawable/rb_selector.xml
+SHA1-Digest: PLDpcDDEXWKt2V1FC1qPW9lOPbg=
+
+Name: lib/mips/libplugin_phone.so
+SHA1-Digest: GjrkLjEonT/1PNnUiaJFEhuyBI0=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_4096.xml
+SHA1-Digest: ZnfyELIA5fsmA6bwrgs/nbnBjSQ=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_512.xml
+SHA1-Digest: tpUAkyheIq9WUwTyUsjCGuvt6T8=
+
+Name: res/drawable-hdpi-v4/ic_action_undo.png
+SHA1-Digest: pDkTl5wfTd7nAgRVWOeIB3MBS7Y=
+
+Name: res/drawable-mdpi-v4/cell_rectangle_4.xml
+SHA1-Digest: VJsBxNXu9lNRN6g7Dx2gpxhODDs=
+
+Name: res/drawable-mdpi-v4/ic_action_settings.png
+SHA1-Digest: YfxiUw3yBaunMuAmoRnUAIdy+iY=
+
+Name: lib/x86/libplugin_phone.so
+SHA1-Digest: kwBRRkBfBs0BbBf0fHz3NGm05io=
+
+Name: classes.dex
+SHA1-Digest: Wb8tkhrgyXpEKpdr829sshmVdps=
+
+Name: res/menu/main.xml
+SHA1-Digest: S2dyfexvY0nYp3qRoOS5p+UBQ+E=
+
+Name: res/layout/activity_pay.xml
+SHA1-Digest: raZuN8+yi1LBugD5IwB/8iy4XDQ=
+
+Name: res/drawable-hdpi-v4/splash.png
+SHA1-Digest: mv1pMuzzuAlMHP+ltXIkWKyQlH0=
+
+Name: res/drawable-mdpi-v4/light_up_rectangle.xml
+SHA1-Digest: rI9xoZ8gspVMaO4ZJBH6dYtk08k=
+
+Name: assets/tips_bg.9.png
+SHA1-Digest: foR2IngCy5OoCyWXA9lJw3ATZQI=
+
+Name: res/layout/activity_main.xml
+SHA1-Digest: SvrKIXNLG+cYKLOeA7P8ozXa5GY=
+
+Name: res/drawable-hdpi-v4/passed.png
+SHA1-Digest: pqq6uM0Gs/afozpyFAEykZRAaIU=
+

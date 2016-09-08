@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="tk.woppo.mgame" platformBuildVersionCode="16" platformBuildVersionName="4.1.2-1425332">
+    <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/logo_2048" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:label="@string/app_name" android:name=".MainActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:name="com.ipaynow.plugin.presenter.PayMethodActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.ipaynow.plugin.inner_plugin.wechatwp.activity.WeChatNotifyActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.ipaynow.plugin.inner_plugin.qqpay.activity.QQPayActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="qwallet1104856314"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|navigation|orientation|screenSize" android:exported="false" android:launchMode="singleTop" android:name="com.ipaynow.plugin.inner_plugin.qqwp.activity.QQWapPayActivity" android:screenOrientation="behind" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:label="@string/title_activity_pay" android:name=".PayActivity" android:screenOrientation="portrait"/>
+        <activity android:label="@string/app_name" android:name=".SplashActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.webkit.permission.PLUGIN"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <supports-screens android:anyDensity="true"/>
+</manifest>
